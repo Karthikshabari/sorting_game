@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="Background" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1200</width>
+     <height>800</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>true</bool>
+   </property>
+   <property name="tabletTracking">
+    <bool>true</bool>
+   </property>
+   <property name="acceptDrops">
+    <bool>true</bool>
+   </property>
+   <property name="autoFillBackground">
+    <bool>true</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <widget class="QPushButton" name="animals">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>170</y>
+      <width>361</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {font: 22pt &quot;Games&quot;;
+    border-bottom: 10px solid #000000;
+    border-radius: 10px;
+	 background-color:#0197f6;
+    min-width: 1px;
+}
+
+QPushButton:pressed {
+border-bottom: 5px solid #74b3ce;
+    border-radius: 10px;
+     background-color:rgb(255, 170, 127);
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string> விலங்குகள்</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="fruits">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>170</y>
+      <width>251</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {font: 22pt &quot;Games&quot;;
+    border-bottom: 10px solid #000000;
+    border-radius: 10px;
+	 background-color:#0197f6;
+    min-width: 1px;
+}
+
+QPushButton:pressed {
+border-bottom: 5px solid #74b3ce;
+    border-radius: 10px;
+     background-color:rgb(255, 170, 127);
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string>பழங்கள்</string>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="planets">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>570</y>
+      <width>271</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {font: 22pt &quot;Games&quot;;
+    border-bottom: 10px solid #000000;
+    border-radius: 10px;
+	 background-color:#0197f6;
+    min-width: 1px;
+}
+
+QPushButton:pressed {
+border-bottom: 5px solid #74b3ce;
+    border-radius: 10px;
+     background-color:rgb(255, 170, 127);
+}
+
+
+
+</string>
+    </property>
+    <property name="text">
+     <string>கிரகங்கள்</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="vegetables">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>360</y>
+      <width>311</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {font: 22pt &quot;Games&quot;;
+    border-bottom: 10px solid #000000;
+    border-radius: 10px;
+	 background-color:#0197f6;
+    min-width: 1px;
+}
+
+QPushButton:pressed {
+border-bottom: 5px solid #74b3ce;
+    border-radius: 10px;
+     background-color:rgb(255, 170, 127);
+}
+
+
+
+</string>
+    </property>
+    <property name="text">
+     <string>காய்கறிகள்</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="days">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>360</y>
+      <width>261</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {font: 22pt &quot;Games&quot;;
+    border-bottom: 10px solid #000000;
+    border-radius: 10px;
+	 background-color:#0197f6;
+    min-width: 1px;
+}
+
+QPushButton:pressed {
+border-bottom: 5px solid #74b3ce;
+    border-radius: 10px;
+     background-color:rgb(255, 170, 127);
+}
+
+
+
+</string>
+    </property>
+    <property name="text">
+     <string> கிழமைகள்</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="months">
+    <property name="geometry">
+     <rect>
+      <x>710</x>
+      <y>570</y>
+      <width>271</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {font: 22pt &quot;Games&quot;;
+    border-bottom: 10px solid #000000;
+    border-radius: 10px;
+	 background-color:#0197f6;
+    min-width: 1px;
+}
+
+QPushButton:pressed {
+border-bottom: 5px solid #74b3ce;
+    border-radius: 10px;
+     background-color:rgb(255, 170, 127);
+}
+
+
+
+</string>
+    </property>
+    <property name="text">
+     <string>மாதங்கள்</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="colors">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>170</y>
+      <width>401</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {font: 22pt &quot;Games&quot;;
+    border-bottom: 10px solid #000000;
+    border-radius: 10px;
+	 background-color:#0197f6;
+    min-width: 1px;
+}
+
+QPushButton:pressed {
+border-bottom: 5px solid #74b3ce;
+    border-radius: 10px;
+     background-color:rgb(255, 170, 127);
+}
+
+
+</string>
+    </property>
+    <property name="text">
+     <string>வண்ணங்கள்</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>-20</y>
+      <width>691</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 24pt &quot;Ravie&quot;;
+color: #FFF600;
+</string>
+    </property>
+    <property name="text">
+     <string>           தமிழோடு வளர்ந்திடு</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="BG">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1200</width>
+      <height>800</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="action">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>580</y>
+      <width>211</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {font: 22pt &quot;Games&quot;;
+    border-bottom: 10px solid #000000;
+    border-radius: 10px;
+	 background-color:#0197f6;
+    min-width: 1px;
+}
+
+QPushButton:pressed {
+border-bottom: 5px solid #74b3ce;
+    border-radius: 10px;
+     background-color:rgb(255, 170, 127);
+}
+
+
+</string>
+    </property>
+    <property name="text">
+     <string>செயல்</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="mute">
+    <property name="geometry">
+     <rect>
+      <x>1070</x>
+      <y>30</y>
+      <width>51</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 22pt &quot;Games&quot;;
+border-radius:20px;
+background-image: url(:/newPrefix/PycharmProjects/pythonProject1/mutmtue.jpg);
+background-color:transparent;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <zorder>BG</zorder>
+   <zorder>animals</zorder>
+   <zorder>colors</zorder>
+   <zorder>days</zorder>
+   <zorder>fruits</zorder>
+   <zorder>months</zorder>
+   <zorder>planets</zorder>
+   <zorder>vegetables</zorder>
+   <zorder>label</zorder>
+   <zorder>action</zorder>
+   <zorder>mute</zorder>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../../Downloads/test.qrc"/>
+  <include location="../../Downloads/play.qrc"/>
+  <include location="../../Downloads/gif.qrc"/>
+  <include location="../../Downloads/gamesfont.qrc"/>
+  <include location="../../Downloads/BG__SQUARE.qrc"/>
+  <include location="../../Downloads/BG_ORAGNE.qrc"/>
+  <include location="../../Downloads/BG_WHITE.qrc"/>
+  <include location="../../Downloads/ifydhnfgdf.qrc"/>
+  <include location="../../Downloads/bluee.qrc"/>
+  <include location="../../Downloads/dsad.qrc"/>
+  <include location="../../Downloads/coco.qrc"/>
+  <include location="../../Downloads/fors.qrc"/>
+  <include location="../../Downloads/tryage.qrc"/>
+  <include location="../../Downloads/tr.qrc"/>
+  <include location="../../Downloads/gfdhfg.qrc"/>
+  <include location="../../Downloads/bea.qrc"/>
+ </resources>
+ <connections/>
+</ui>

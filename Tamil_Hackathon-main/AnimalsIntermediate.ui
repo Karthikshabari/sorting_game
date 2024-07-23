@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>815</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="Background" native="true">
+   <property name="geometry">
+    <rect>
+     <x>-40</x>
+     <y>-40</y>
+     <width>1241</width>
+     <height>851</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#Background{
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0.98, y2:0.949, stop:0.0746269 rgba(255, 63, 0, 255), stop:0.487562 rgba(235, 148, 61, 255), stop:0.98 rgba(57, 196, 255, 255), stop:1 rgba(0, 0, 0, 0));
+}</string>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>0</y>
+      <width>691</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+color: rgb(255, 255, 255);
+font: 28pt &quot;MS Shell Dlg 2&quot;;</string>
+    </property>
+    <property name="text">
+     <string>
+வார்த்தை விளையாட்டு</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="A1">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>320</y>
+      <width>241</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="acceptDrops">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 14pt &quot;Times New Roman&quot;;
+background-color: rgba(0,0,0,0);
+
+
+</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="A2">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>320</y>
+      <width>241</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 14pt &quot;Times New Roman&quot;;
+background-color: rgba(0,0,0,0);
+
+
+</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="A3">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>320</y>
+      <width>241</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 14pt &quot;Times New Roman&quot;;
+background-color: rgba(0,0,0,0);
+
+
+
+</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="A4">
+    <property name="geometry">
+     <rect>
+      <x>760</x>
+      <y>320</y>
+      <width>241</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 14pt &quot;Times New Roman&quot;;
+background-color: rgba(0,0,0,0);
+
+
+</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="A5">
+    <property name="geometry">
+     <rect>
+      <x>1000</x>
+      <y>320</y>
+      <width>241</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 14pt &quot;Times New Roman&quot;;
+background-color: rgba(0,0,0,0);
+
+</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="R3">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>540</y>
+      <width>241</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 14pt &quot;Times New Roman&quot;;
+background-color: rgba(0,0,0,0);
+</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="R4">
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>540</y>
+      <width>241</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 14pt &quot;Times New Roman&quot;;
+background-color: rgba(0,0,0,0);
+</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="R5">
+    <property name="geometry">
+     <rect>
+      <x>990</x>
+      <y>540</y>
+      <width>241</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 14pt &quot;Times New Roman&quot;;
+background-color: rgba(0,0,0,0);
+
+</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="R2">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>540</y>
+      <width>241</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 14pt &quot;Times New Roman&quot;;
+background-color: rgba(0,0,0,0);
+
+</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="R1">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>540</y>
+      <width>241</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 14pt &quot;Times New Roman&quot;;
+background-color: rgba(0,0,0,0);
+
+</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="Decision">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>710</y>
+      <width>541</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>541</width>
+      <height>81</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 14pt &quot;Times New Roman&quot;;
+background-color: rgba(0,0,0,0);
+border:none;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>890</x>
+      <y>150</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 16pt &quot;Times New Roman&quot;;</string>
+    </property>
+    <property name="text">
+     <string>ATTEMPTS:</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="Attempts">
+    <property name="geometry">
+     <rect>
+      <x>1040</x>
+      <y>150</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 14pt &quot;Times New Roman&quot;;
+background-color: rgba(0,0,0,0);
+border:none;
+</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="A7">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>220</y>
+      <width>241</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 14pt &quot;Times New Roman&quot;;
+background-color: rgba(0,0,0,0);
+
+
+</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="A6">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>220</y>
+      <width>241</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="acceptDrops">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 14pt &quot;Times New Roman&quot;;
+background-color: rgba(0,0,0,0);
+
+
+</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="R7">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>640</y>
+      <width>241</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 14pt &quot;Times New Roman&quot;;
+background-color: rgba(0,0,0,0);
+
+
+</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="R6">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>640</y>
+      <width>241</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="acceptDrops">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 14pt &quot;Times New Roman&quot;;
+background-color: rgba(0,0,0,0);
+
+
+</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>796</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="Background" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>-10</y>
+      <width>1241</width>
+      <height>851</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#Background{
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0.98, y2:0.949, stop:0.0746269 rgba(255, 63, 0, 255), stop:0.487562 rgba(235, 148, 61, 255), stop:0.98 rgba(57, 196, 255, 255), stop:1 rgba(0, 0, 0, 0));
+}</string>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>360</x>
+       <y>0</y>
+       <width>691</width>
+       <height>141</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+color: rgb(255, 255, 255);
+font: 28pt &quot;MS Shell Dlg 2&quot;;</string>
+     </property>
+     <property name="text">
+      <string>
+வார்த்தை விளையாட்டு</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>470</x>
+       <y>340</y>
+       <width>411</width>
+       <height>131</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 24pt &quot;Games&quot;;
+border-radius: 20px;
+
+</string>
+     </property>
+     <property name="text">
+      <string>வாழ்த்துக்கள்!!!</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="finish">
+     <property name="geometry">
+      <rect>
+       <x>480</x>
+       <y>570</y>
+       <width>271</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 24pt &quot;Games&quot;;
+border-radius: 20px;
+
+</string>
+     </property>
+     <property name="text">
+      <string>முடிக்க</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>490</x>
+       <y>480</y>
+       <width>271</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 24pt &quot;Games&quot;;
+border-radius: 20px;
+
+</string>
+     </property>
+     <property name="text">
+      <string>முயற்சிகள்:</string>
+     </property>
+    </widget>
+    <widget class="QListWidget" name="AO">
+     <property name="geometry">
+      <rect>
+       <x>750</x>
+       <y>480</y>
+       <width>91</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 75 19pt &quot;Times New Roman&quot;;
+background-color: rgba(0,0,0,0);
+border:none;
+</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

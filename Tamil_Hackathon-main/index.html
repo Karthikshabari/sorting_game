@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <script src="https://cdn.jsdelivr.net/pyodide/v0.21.3/full/pyodide.js"></script>
+  </head>
+  <body>
+    Pyodide test page <br>
+    Open your browser console to see Pyodide output
+    <script type="text/javascript">
+      async function main(){
+        let pyodide = await loadPyodide();
+        console.log(pyodide.runPython(`
+            import sys
+            sys.version
+        `));
+        await pyodide.loadPackage("micropip");
+const micropip = pyodide.pyimport("micropip");
+await micropip.install('pypk-package-PK35',keep_going=true);
+        pyodide.runPython("print(1 + 2)");
+             pyodide.runPython(`
+  import pypk-package-PK35
+  pypk-package-PK35.add_one(5)
+  print("Hello")
+`);
+      }
+
+      main();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="Background" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>-10</y>
+      <width>1241</width>
+      <height>851</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#Background{
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0.98, y2:0.949, stop:0.0746269 rgba(255, 63, 0, 255), stop:0.487562 rgba(235, 148, 61, 255), stop:0.98 rgba(57, 196, 255, 255), stop:1 rgba(0, 0, 0, 0));
+}</string>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>360</x>
+       <y>0</y>
+       <width>691</width>
+       <height>141</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+color: rgb(255, 255, 255);
+font: 28pt &quot;MS Shell Dlg 2&quot;;</string>
+     </property>
+     <property name="text">
+      <string>
+வார்த்தை விளையாட்டு</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="easy">
+     <property name="geometry">
+      <rect>
+       <x>510</x>
+       <y>310</y>
+       <width>251</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 20pt &quot;Games&quot;;
+border-radius: 20px;
+
+</string>
+     </property>
+     <property name="text">
+      <string>சுலபம்</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="intermediate">
+     <property name="geometry">
+      <rect>
+       <x>510</x>
+       <y>430</y>
+       <width>251</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 20pt &quot;Games&quot;;
+border-radius: 20px;
+
+</string>
+     </property>
+     <property name="text">
+      <string>இடைநிலை</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="hard">
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>550</y>
+       <width>251</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 20pt &quot;Games&quot;;
+border-radius: 20px;
+
+</string>
+     </property>
+     <property name="text">
+      <string>கடினம்</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

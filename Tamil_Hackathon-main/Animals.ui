@@ -1,0 +1,936 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>793</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="Background" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1200</width>
+     <height>800</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>-20</y>
+      <width>691</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:#FFF600;
+font: 24pt &quot;MS Shell Dlg 2&quot;;</string>
+    </property>
+    <property name="text">
+     <string>           தமிழோடு வளர்ந்திடு</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="A1">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>200</y>
+      <width>241</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="acceptDrops">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QListWidget{font: 12pt &quot;Games&quot;;
+background: transparent;
+color:white;
+border-radius:20px;
+}
+QListWidget::item:selected {
+font: 12pt &quot;Games&quot;;
+background: transparent;
+    color:white;
+
+border-radius: 20px;
+}
+
+
+QListWidget::item:hover {
+font: 12pt &quot;Games&quot;;
+    background:transparent;
+color:#F5E050;
+border-radius: 20px;
+}
+
+</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="A2">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>200</y>
+      <width>241</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QListWidget{font: 12pt &quot;Games&quot;;
+background: transparent;
+color:white;
+border-radius:20px;
+}
+QListWidget::item:selected {
+font: 12pt &quot;Games&quot;;
+background: transparent;
+    color:white;
+
+border-radius: 20px;
+}
+
+
+QListWidget::item:hover {
+font: 12pt &quot;Games&quot;;
+    background:transparent;
+color:#F5E050;
+border-radius: 20px;
+}
+
+</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="A3">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>200</y>
+      <width>241</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QListWidget{font: 12pt &quot;Games&quot;;
+background: transparent;
+color:white;
+border-radius:20px;
+}
+QListWidget::item:selected {
+font: 12pt &quot;Games&quot;;
+background: transparent;
+    color:white;
+
+border-radius: 20px;
+}
+
+
+QListWidget::item:hover {
+font: 12pt &quot;Games&quot;;
+    background:transparent;
+color:#F5E050;
+border-radius: 20px;
+}
+
+</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="A4">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>200</y>
+      <width>241</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QListWidget{font: 12pt &quot;Games&quot;;
+background: transparent;
+color:white;
+border-radius:20px;
+}
+QListWidget::item:selected {
+font: 12pt &quot;Games&quot;;
+background: transparent;
+color:white;
+border-radius: 20px;
+}
+
+
+QListWidget::item:hover {
+font: 12pt &quot;Games&quot;;
+    background:transparent;
+color:#F5E050;
+border-radius: 20px;
+}
+
+</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="A5">
+    <property name="geometry">
+     <rect>
+      <x>960</x>
+      <y>200</y>
+      <width>241</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QListWidget{font: 12pt &quot;Games&quot;;
+background: transparent;
+color:white;
+border-radius:20px;
+}
+QListWidget::item:selected {
+font: 12pt &quot;Games&quot;;
+background: transparent;
+    color:white;
+
+border-radius: 20px;
+}
+
+
+QListWidget::item:hover {
+font: 12pt &quot;Games&quot;;
+    background:transparent;
+color:#F5E050;
+border-radius: 20px;
+}
+
+</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="R3">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>540</y>
+      <width>241</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QListWidget{font: 12pt &quot;Games&quot;;
+background: transparent;
+color:white;
+border-radius:20px;
+}
+QListWidget::item:selected {
+font: 12pt &quot;Games&quot;;
+background: transparent;
+    color:white;
+
+border-radius: 20px;
+}
+
+
+QListWidget::item:hover {
+font: 12pt &quot;Games&quot;;
+    background:transparent;
+color:#F5E050;
+border-radius: 20px;
+}
+
+</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="R4">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>540</y>
+      <width>241</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QListWidget{font: 12pt &quot;Games&quot;;
+background: transparent;
+color:white;
+border-radius:20px;
+}
+QListWidget::item:selected {
+font: 12pt &quot;Games&quot;;
+background: transparent;
+    color:white;
+
+border-radius: 20px;
+}
+
+
+QListWidget::item:hover {
+font: 12pt &quot;Games&quot;;
+    background:transparent;
+color:#F5E050;
+border-radius: 20px;
+}
+
+</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="R5">
+    <property name="geometry">
+     <rect>
+      <x>960</x>
+      <y>540</y>
+      <width>241</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QListWidget{font: 12pt &quot;Games&quot;;
+background: transparent;
+color:white;
+border-radius:20px;
+}
+QListWidget::item:selected {
+font: 12pt &quot;Games&quot;;
+background: transparent;
+    color:white;
+
+border-radius: 20px;
+}
+
+
+QListWidget::item:hover {
+font: 12pt &quot;Games&quot;;
+    background:transparent;
+color:#F5E050;
+border-radius: 20px;
+}
+
+</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="R2">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>540</y>
+      <width>241</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QListWidget{font: 12pt &quot;Games&quot;;
+background: transparent;
+color:white;
+border-radius:20px;
+}
+QListWidget::item:selected {
+font: 12pt &quot;Games&quot;;
+background: transparent;
+    color:white;
+
+border-radius: 20px;
+}
+
+
+QListWidget::item:hover {
+font: 12pt &quot;Games&quot;;
+    background:transparent;
+color:#F5E050;
+border-radius: 20px;
+}
+
+</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="R1">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>540</y>
+      <width>241</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QListWidget{font: 12pt &quot;Games&quot;;
+background: transparent;
+color:white;
+border-radius:20px;
+}
+QListWidget::item:selected {
+font: 12pt &quot;Games&quot;;
+background: transparent;
+    color:white;
+
+border-radius: 20px;
+}
+
+
+QListWidget::item:hover {
+font: 12pt &quot;Games&quot;;
+    background:transparent;
+color:#F5E050;
+border-radius: 20px;
+}
+
+</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="Decision">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>690</y>
+      <width>541</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>541</width>
+      <height>81</height>
+     </size>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QListWidget{font: 13pt &quot;Games&quot;;
+background: transparent;
+color:white;
+border-radius: 20px;
+}
+QListWidget::item:selected {
+font: 13pt &quot;Games&quot;;
+background: transparent;
+    color:white;
+
+border-radius: 20px;
+}
+
+
+QListWidget::item:hover {
+font: 13pt &quot;Games&quot;;
+    background:transparent;
+color:white;
+border-radius: 20px;
+}
+
+</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>810</x>
+      <y>120</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 16pt &quot;Times New Roman&quot;;
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>முயற்சிகள்</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="Attempts">
+    <property name="geometry">
+     <rect>
+      <x>1000</x>
+      <y>130</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QListWidget{font: 13pt &quot;Games&quot;;
+background: transparent;
+color:white;
+border-radius: 20px;
+}
+QListWidget::item:selected {
+font: 13pt &quot;Games&quot;;
+background: transparent;
+    color:white;
+
+border-radius: 20px;
+}
+
+
+QListWidget::item:hover {
+font: 13pt &quot;Games&quot;;
+    background:transparent;
+color:white;
+border-radius: 20px;
+}
+
+</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="A10">
+    <property name="geometry">
+     <rect>
+      <x>960</x>
+      <y>300</y>
+      <width>241</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QListWidget{font: 12pt &quot;Games&quot;;
+background: transparent;
+color:white;
+border-radius:20px;
+}
+QListWidget::item:selected {
+font: 12pt &quot;Games&quot;;
+background: transparent;
+    color:white;
+
+border-radius: 20px;
+}
+
+
+QListWidget::item:hover {
+font: 12pt &quot;Games&quot;;
+    background:transparent;
+color:#F5E050;
+border-radius: 20px;
+}
+
+</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="A8">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>300</y>
+      <width>241</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QListWidget{font: 12pt &quot;Games&quot;;
+background: transparent;
+color:white;
+border-radius:20px;
+}
+QListWidget::item:selected {
+font: 12pt &quot;Games&quot;;
+background: transparent;
+    color:white;
+
+border-radius: 20px;
+}
+
+
+QListWidget::item:hover {
+font: 12pt &quot;Games&quot;;
+    background:transparent;
+color:#F5E050;
+border-radius: 20px;
+}
+
+</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="A7">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>300</y>
+      <width>241</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QListWidget{font: 12pt &quot;Games&quot;;
+background: transparent;
+color:white;
+border-radius:20px;
+}
+QListWidget::item:selected {
+font: 12pt &quot;Games&quot;;
+background: transparent;
+    color:white;
+
+border-radius: 20px;
+}
+
+
+QListWidget::item:hover {
+font: 12pt &quot;Games&quot;;
+    background:transparent;
+color:#F5E050;
+border-radius: 20px;
+}
+
+</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="A9">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>300</y>
+      <width>241</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QListWidget{font: 12pt &quot;Games&quot;;
+background: transparent;
+color:white;
+border-radius:20px;
+}
+QListWidget::item:selected {
+font: 12pt &quot;Games&quot;;
+background: transparent;
+    color:white;
+
+border-radius: 20px;
+}
+
+
+QListWidget::item:hover {
+font: 12pt &quot;Games&quot;;
+    background:transparent;
+color:#F5E050;
+border-radius: 20px;
+}
+
+</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="A6">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>300</y>
+      <width>241</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="acceptDrops">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QListWidget{font: 12pt &quot;Games&quot;;
+background: transparent;
+color:white;
+border-radius:20px;
+}
+QListWidget::item:selected {
+font: 12pt &quot;Games&quot;;
+background: transparent;
+    color:white;
+
+border-radius: 20px;
+}
+
+
+QListWidget::item:hover {
+font: 12pt &quot;Games&quot;;
+    background:transparent;
+color:#F5E050;
+border-radius: 20px;
+}
+
+</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="R10">
+    <property name="geometry">
+     <rect>
+      <x>960</x>
+      <y>640</y>
+      <width>241</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QListWidget{font: 12pt &quot;Games&quot;;
+background: transparent;
+color:white;
+border-radius:20px;
+}
+QListWidget::item:selected {
+font: 12pt &quot;Games&quot;;
+background: transparent;
+    color:white;
+
+border-radius: 20px;
+}
+
+
+QListWidget::item:hover {
+font: 12pt &quot;Games&quot;;
+    background:transparent;
+color:#F5E050;
+border-radius: 20px;
+}
+
+</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="R8">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>640</y>
+      <width>241</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QListWidget{font: 12pt &quot;Games&quot;;
+background: transparent;
+color:white;
+border-radius:20px;
+}
+QListWidget::item:selected {
+font: 12pt &quot;Games&quot;;
+background: transparent;
+    color:white;
+
+border-radius: 20px;
+}
+
+
+QListWidget::item:hover {
+font: 12pt &quot;Games&quot;;
+    background:transparent;
+color:#F5E050;
+border-radius: 20px;
+}
+
+</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="R7">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>640</y>
+      <width>241</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QListWidget{font: 12pt &quot;Games&quot;;
+background: transparent;
+color:white;
+border-radius:20px;
+}
+QListWidget::item:selected {
+font: 12pt &quot;Games&quot;;
+background: transparent;
+    color:white;
+
+border-radius: 20px;
+}
+
+
+QListWidget::item:hover {
+font: 12pt &quot;Games&quot;;
+    background:transparent;
+color:#F5E050;
+border-radius: 20px;
+}
+
+</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="R9">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>640</y>
+      <width>241</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QListWidget{font: 12pt &quot;Games&quot;;
+background: transparent;
+color:white;
+border-radius:20px;
+}
+QListWidget::item:selected {
+font: 12pt &quot;Games&quot;;
+background: transparent;
+    color:white;
+
+border-radius: 20px;
+}
+
+
+QListWidget::item:hover {
+font: 12pt &quot;Games&quot;;
+    background:transparent;
+color:#F5E050;
+border-radius: 20px;
+}
+
+</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="R6">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>640</y>
+      <width>241</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="acceptDrops">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QListWidget{font: 12pt &quot;Games&quot;;
+background: transparent;
+color:white;
+border-radius:20px;
+}
+QListWidget::item:selected {
+font: 12pt &quot;Games&quot;;
+background: transparent;
+    color:white;
+
+border-radius: 20px;
+}
+
+
+QListWidget::item:hover {
+font: 12pt &quot;Games&quot;;
+    background:transparent;
+color:#F5E050;
+border-radius: 20px;
+}
+
+</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="BG">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1200</width>
+      <height>800</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <zorder>BG</zorder>
+   <zorder>A1</zorder>
+   <zorder>A10</zorder>
+   <zorder>A2</zorder>
+   <zorder>A3</zorder>
+   <zorder>A4</zorder>
+   <zorder>A5</zorder>
+   <zorder>A6</zorder>
+   <zorder>A7</zorder>
+   <zorder>A8</zorder>
+   <zorder>A9</zorder>
+   <zorder>Attempts</zorder>
+   <zorder>Decision</zorder>
+   <zorder>R1</zorder>
+   <zorder>R10</zorder>
+   <zorder>R2</zorder>
+   <zorder>R3</zorder>
+   <zorder>R4</zorder>
+   <zorder>R5</zorder>
+   <zorder>R6</zorder>
+   <zorder>R7</zorder>
+   <zorder>R8</zorder>
+   <zorder>R9</zorder>
+   <zorder>label</zorder>
+   <zorder>label_3</zorder>
+  </widget>
+ </widget>
+ <resources>
+  <include location="tre.qrc"/>
+  <include location="gidfd.qrc"/>
+  <include location="blu.qrc"/>
+ </resources>
+ <connections/>
+</ui>
