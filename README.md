@@ -25,4 +25,4 @@
 - Expanding to mobile platforms
 
 ## Author
-Developed by [Karthik Shabari] 
+Developed by Karthik Shabari
